@@ -10,7 +10,7 @@ OPT=-O3 -march=x86-64 -mtune=generic -pipe
 CFLAGS=-Wall -Wextra -pedantic $(OPT)
 # preprocessor flags (needed for M_PI)
 CPPFLAGS=-D_XOPEN_SOURCE=500
-#specify link flags
+# specify link flags
 LDFLAGS=-s
 # specify libraries
 LIBS=-lm
